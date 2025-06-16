@@ -1,6 +1,6 @@
-import GithubIcon from '/Public/icons/GithubIcon.svg?react';
-import LinkedinIcon from '/Public/icons/LinkedinIcon.svg?react';
-import XIcon from '/Public/icons/XIcon.svg?react';
+import GithubIcon from '@/assets/icons/GithubIcon.svg?react';
+import LinkedinIcon from '@/assets/icons/LinkedinIcon.svg?react';
+import XIcon from '@/assets/icons/XIcon.svg?react';
 
 const HomePage = () => {
   return (
