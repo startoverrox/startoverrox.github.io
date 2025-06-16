@@ -1,7 +1,7 @@
 import Route from "./Router.tsx";
 
 function App() {
-	return <Route />;
+  return <Route />;
 }
 
 export default App;

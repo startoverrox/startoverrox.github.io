@@ -1,11 +1,13 @@
-import GithubIcon from '@/assets/icons/GithubIcon.svg?react';
-import LinkedinIcon from '@/assets/icons/LinkedinIcon.svg?react';
-import XIcon from '@/assets/icons/XIcon.svg?react';
+import GithubIcon from "@/assets/icons/GithubIcon.svg?react";
+import LinkedinIcon from "@/assets/icons/LinkedinIcon.svg?react";
+import XIcon from "@/assets/icons/XIcon.svg?react";
 
 const HomePage = () => {
+  console.log("HomePage");
+
   return (
     <div className="px-[177px] py-[41px]">
-      <div className="flex justify-between items-center">
+      <div className="flex items-center justify-between">
         <div>logo</div>
         <div className="flex gap-[51px]">
           <div className="flex w-[609px] justify-between">
@@ -16,15 +18,15 @@ const HomePage = () => {
             <div>Contact</div>
           </div>
           <div className="flex gap-[20px]">
-            <GithubIcon className="w-[30px] h-[30px]" />
-            <LinkedinIcon className="w-[30px] h-[30px]" />
-            <XIcon className="w-[30px] h-[30px]" />
+            <GithubIcon className="h-[30px] w-[30px]" />
+            <LinkedinIcon className="h-[30px] w-[30px]" />
+            <XIcon className="h-[30px] w-[30px]" />
           </div>
         </div>
       </div>
       <div className="mt-[220px]">
         <div className="flex justify-between">
-          <div className="text-[58px] font-bold leading-[70px]">
+          <div className="text-[58px] leading-[70px] font-bold">
             <div>Hi 👋,</div>
             <div>My name is</div>
             <div>Yeabin</div>
@@ -34,8 +36,12 @@ const HomePage = () => {
         </div>
       </div>
       <div className="mt-[348px] flex flex-col gap-[49px]">
-        <div>My Tech Stack</div>
-        <div>Technologies I’ve been working with recently</div>
+        <div className="text-center text-[48px] leading-[26px] font-bold">
+          My Tech Stack
+        </div>
+        <div className="text-center text-[32px] leading-[26px]">
+          Technologies I’ve been working with recently
+        </div>
       </div>
     </div>
   );
