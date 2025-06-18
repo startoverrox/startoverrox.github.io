@@ -147,6 +147,19 @@ const HomePage = () => {
           </ProjectCard>
         </div>
       </div>
+
+      <div className="mt-[200px] flex justify-between">
+        <div className="flex-1">logo</div>
+        <div className="flex flex-1 items-center justify-between">
+          <p className="text-center">000-000-0000</p>
+          <p className="text-center">email@gmail.com</p>
+          <div className="flex gap-[20px]">
+            <GithubIcon className="h-[30px] w-[30px]" />
+            <LinkedinIcon className="h-[30px] w-[30px]" />
+            <XIcon className="h-[30px] w-[30px]" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
