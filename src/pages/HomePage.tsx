@@ -10,14 +10,21 @@ import StackGitIcon from "@/assets/icons/StackGitIcon.svg?react";
 import StackGithubIcon from "@/assets/icons/StackGithubIcon.svg?react";
 import StackVscIcon from "@/assets/icons/StackVscIcon.svg?react";
 import ProjectCard from "@/components/ProjectCard";
+import useSettingStore from "@/store/settingStore";
 
 const HomePage = () => {
   console.log("HomePage");
 
+  const darkMode = useSettingStore((state) => state.darkMode);
+  const setDarkMode = useSettingStore((state) => state.setDarkMode);
+
   return (
     <div className="px-L-700 py-S-500">
       <div className="flex items-center justify-between">
-        <div>logo</div>
+        <div className="text-muted">logo</div>
+        <button onClick={() => setDarkMode(darkMode)}>
+          {darkMode ? "dark" : "light"}
+        </button>
         <div className="gap-M-100 flex">
           <div className="flex w-[609px] justify-between">
             <div>Home</div>
