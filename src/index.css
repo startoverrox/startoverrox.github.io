@@ -19,8 +19,16 @@
 	} */
 }
 
+@font-face {
+  font-family: Open-Sans;
+  font-style: nromal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("Public/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
 @theme {
-  --font-display: "Open Sans", sans-serif;
+  --font-display: "Open-Sans", sans-serif;
   --font-poppins: Poppins, sans-serif;
 
   /* text */
@@ -88,6 +96,6 @@
 
 @layer base {
   html {
-    font-family: var(--font-poppins);
+    font-family: var(--font-display);
   }
 }
