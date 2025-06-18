@@ -1,6 +1,15 @@
 import GithubIcon from "@/assets/icons/GithubIcon.svg?react";
 import LinkedinIcon from "@/assets/icons/LinkedinIcon.svg?react";
 import XIcon from "@/assets/icons/XIcon.svg?react";
+import StackHtmlIcon from "@/assets/icons/StackHtmlIcon.svg?react";
+import StackCssIcon from "@/assets/icons/StackCssIcon.svg?react";
+import StackJsIcon from "@/assets/icons/StackJsIcon.svg?react";
+import StackReactIcon from "@/assets/icons/StackReactIcon.svg?react";
+import StackTailwindIcon from "@/assets/icons/StackTailwindIcon.svg?react";
+import StackGitIcon from "@/assets/icons/StackGitIcon.svg?react";
+import StackGithubIcon from "@/assets/icons/StackGithubIcon.svg?react";
+import StackVscIcon from "@/assets/icons/StackVscIcon.svg?react";
+import ProjectCard from "@/components/ProjectCard";
 
 const HomePage = () => {
   console.log("HomePage");
@@ -24,6 +33,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+
       <div className="mt-[220px]">
         <div className="flex justify-between">
           <div className="text-[58px] leading-[70px] font-bold">
@@ -35,12 +45,106 @@ const HomePage = () => {
           <div>interactive 3D model</div>
         </div>
       </div>
+
       <div className="mt-[348px] flex flex-col gap-[49px]">
         <div className="text-center text-[48px] leading-[26px] font-bold">
           My Tech Stack
         </div>
         <div className="text-center text-[32px] leading-[26px]">
           Technologies I’ve been working with recently
+        </div>
+      </div>
+
+      <div className="mt-[138px] flex flex-wrap">
+        <div className="w-1/4 p-[50px]">
+          <StackHtmlIcon />
+        </div>
+        <div className="w-1/4 p-[50px]">
+          <StackCssIcon />
+        </div>
+        <div className="w-1/4 p-[50px]">
+          <StackJsIcon />
+        </div>
+        <div className="w-1/4 p-[50px]">
+          <StackReactIcon />
+        </div>
+        <div className="w-1/4 p-[50px]">
+          <StackTailwindIcon />
+        </div>
+        <div className="w-1/4 p-[50px]">
+          <StackGitIcon />
+        </div>
+        <div className="w-1/4 p-[50px]">
+          <StackGithubIcon />
+        </div>
+        <div className="w-1/4 p-[50px]">
+          <StackVscIcon />
+        </div>
+      </div>
+
+      <div className="mt-[192px] flex flex-col gap-[49px]">
+        <div className="text-center text-[48px] leading-[26px] font-bold">
+          Projects
+        </div>
+        <div className="text-center text-[32px] leading-[26px]">
+          Things I've built so far
+        </div>
+      </div>
+
+      <div className="mt-[96px] flex flex-wrap">
+        <div className="w-1/3 p-[10px]">
+          <ProjectCard img="src/assets/images/random-img1.jpg">
+            <p>
+              <strong>Typography</strong> is the art and technique of arranging
+              type to make written language legible, readable and appealing when
+              displayed.
+            </p>
+          </ProjectCard>
+        </div>
+        <div className="w-1/3 p-[10px]">
+          <ProjectCard img="">
+            <p>
+              <strong>Typography</strong> is the art and technique of arranging
+              type to make written language legible, readable and appealing when
+              displayed.
+            </p>
+          </ProjectCard>
+        </div>
+        <div className="w-1/3 p-[10px]">
+          <ProjectCard img="">
+            <p>
+              <strong>Typography</strong> is the art and technique of arranging
+              type to make written language legible, readable and appealing when
+              displayed.
+            </p>
+          </ProjectCard>
+        </div>
+        <div className="w-1/3 p-[10px]">
+          <ProjectCard img="">
+            <p>
+              <strong>Typography</strong> is the art and technique of arranging
+              type to make written language legible, readable and appealing when
+              displayed.
+            </p>
+          </ProjectCard>
+        </div>
+        <div className="w-1/3 p-[10px]">
+          <ProjectCard img="">
+            <p>
+              <strong>Typography</strong> is the art and technique of arranging
+              type to make written language legible, readable and appealing when
+              displayed.
+            </p>
+          </ProjectCard>
+        </div>
+        <div className="w-1/3 p-[10px]">
+          <ProjectCard img="">
+            <p>
+              <strong>Typography</strong> is the art and technique of arranging
+              type to make written language legible, readable and appealing when
+              displayed.
+            </p>
+          </ProjectCard>
         </div>
       </div>
     </div>
