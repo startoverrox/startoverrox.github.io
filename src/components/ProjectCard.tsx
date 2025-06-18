@@ -21,7 +21,7 @@ const ProjectCard = ({ img, children, className = "" }: StackCardProps) => {
           className="h-full w-full object-cover"
         />
       </div>
-      <div className="p-4">{children}</div>
+      <div className="p-S-200">{children}</div>
     </div>
   );
 };

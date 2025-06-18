@@ -15,10 +15,10 @@ const HomePage = () => {
   console.log("HomePage");
 
   return (
-    <div className="px-[177px] py-[41px]">
+    <div className="px-L-700 py-S-500">
       <div className="flex items-center justify-between">
         <div>logo</div>
-        <div className="flex gap-[51px]">
+        <div className="gap-M-100 flex">
           <div className="flex w-[609px] justify-between">
             <div>Home</div>
             <div>About</div>
@@ -26,7 +26,7 @@ const HomePage = () => {
             <div>Projects</div>
             <div>Contact</div>
           </div>
-          <div className="flex gap-[20px]">
+          <div className="gap-S-200 flex">
             <GithubIcon className="h-[30px] w-[30px]" />
             <LinkedinIcon className="h-[30px] w-[30px]" />
             <XIcon className="h-[30px] w-[30px]" />
@@ -34,65 +34,65 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="mt-[220px]">
+      <div className="mt-L-1000">
         <div className="flex justify-between">
-          <div className="text-[58px] leading-[70px] font-bold">
-            <div>Hi 👋,</div>
+          <div className="text-M-100 leading-[70px] font-bold">
+            {/* <div>Hi 👋,</div>
             <div>My name is</div>
             <div>Yeabin</div>
-            <div>I build things for web</div>
+            <div>I build things for web</div> */}
           </div>
           <div>interactive 3D model</div>
         </div>
       </div>
 
-      <div className="mt-[348px] flex flex-col gap-[49px]">
-        <div className="text-center text-[48px] leading-[26px] font-bold">
+      <div className="mt-L-1000 gap-M-100 flex flex-col">
+        <div className="text-M-100 leading-S-300 text-center font-bold">
           My Tech Stack
         </div>
-        <div className="text-center text-[32px] leading-[26px]">
+        <div className="leading-S-300 text-S-400 text-center">
           Technologies I’ve been working with recently
         </div>
       </div>
 
-      <div className="mt-[138px] flex flex-wrap">
-        <div className="w-1/4 p-[50px]">
+      <div className="mt-L-500 flex flex-wrap">
+        <div className="p-M-100 w-1/4">
           <StackHtmlIcon />
         </div>
-        <div className="w-1/4 p-[50px]">
+        <div className="p-M-100 w-1/4">
           <StackCssIcon />
         </div>
-        <div className="w-1/4 p-[50px]">
+        <div className="p-M-100 w-1/4">
           <StackJsIcon />
         </div>
-        <div className="w-1/4 p-[50px]">
+        <div className="p-M-100 w-1/4">
           <StackReactIcon />
         </div>
-        <div className="w-1/4 p-[50px]">
+        <div className="p-M-100 w-1/4">
           <StackTailwindIcon />
         </div>
-        <div className="w-1/4 p-[50px]">
+        <div className="p-M-100 w-1/4">
           <StackGitIcon />
         </div>
-        <div className="w-1/4 p-[50px]">
+        <div className="p-M-100 w-1/4">
           <StackGithubIcon />
         </div>
-        <div className="w-1/4 p-[50px]">
+        <div className="p-M-100 w-1/4">
           <StackVscIcon />
         </div>
       </div>
 
-      <div className="mt-[192px] flex flex-col gap-[49px]">
-        <div className="text-center text-[48px] leading-[26px] font-bold">
+      <div className="mt-L-800 gap-M-100 flex flex-col">
+        <div className="text-M-100 leading-S-300 text-center font-bold">
           Projects
         </div>
-        <div className="text-center text-[32px] leading-[26px]">
+        <div className="text-S-400 leading-S-300 text-center">
           Things I've built so far
         </div>
       </div>
 
-      <div className="mt-[96px] flex flex-wrap">
-        <div className="w-1/3 p-[10px]">
+      <div className="mt-L-200 flex flex-wrap">
+        <div className="p-S-100 w-1/3">
           <ProjectCard img="src/assets/images/random-img1.jpg">
             <p>
               <strong>Typography</strong> is the art and technique of arranging
@@ -101,7 +101,7 @@ const HomePage = () => {
             </p>
           </ProjectCard>
         </div>
-        <div className="w-1/3 p-[10px]">
+        <div className="p-S-100 w-1/3">
           <ProjectCard img="">
             <p>
               <strong>Typography</strong> is the art and technique of arranging
@@ -110,7 +110,7 @@ const HomePage = () => {
             </p>
           </ProjectCard>
         </div>
-        <div className="w-1/3 p-[10px]">
+        <div className="p-S-100 w-1/3">
           <ProjectCard img="">
             <p>
               <strong>Typography</strong> is the art and technique of arranging
@@ -119,7 +119,7 @@ const HomePage = () => {
             </p>
           </ProjectCard>
         </div>
-        <div className="w-1/3 p-[10px]">
+        <div className="p-S-100 w-1/3">
           <ProjectCard img="">
             <p>
               <strong>Typography</strong> is the art and technique of arranging
@@ -128,7 +128,7 @@ const HomePage = () => {
             </p>
           </ProjectCard>
         </div>
-        <div className="w-1/3 p-[10px]">
+        <div className="p-S-100 w-1/3">
           <ProjectCard img="">
             <p>
               <strong>Typography</strong> is the art and technique of arranging
@@ -137,7 +137,7 @@ const HomePage = () => {
             </p>
           </ProjectCard>
         </div>
-        <div className="w-1/3 p-[10px]">
+        <div className="p-S-100 w-1/3">
           <ProjectCard img="">
             <p>
               <strong>Typography</strong> is the art and technique of arranging
@@ -148,12 +148,12 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="mt-[200px] flex justify-between">
+      <div className="mt-L-800 flex justify-between">
         <div className="flex-1">logo</div>
         <div className="flex flex-1 items-center justify-between">
           <p className="text-center">000-000-0000</p>
           <p className="text-center">email@gmail.com</p>
-          <div className="flex gap-[20px]">
+          <div className="gap-S-200 flex">
             <GithubIcon className="h-[30px] w-[30px]" />
             <LinkedinIcon className="h-[30px] w-[30px]" />
             <XIcon className="h-[30px] w-[30px]" />
